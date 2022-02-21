@@ -8176,13 +8176,13 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   background: #3e64ff;
   background: #3e65ff;
-  background: -moz-linear-gradient(left, #3e65ff 0%, #499bea 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #3e65ff), color-stop(100%, #499bea));
-  background: -webkit-linear-gradient(left, #3e65ff 0%, #499bea 100%);
-  background: -o-linear-gradient(left, #3e65ff 0%, #499bea 100%);
-  background: -ms-linear-gradient(left, #3e65ff 0%, #499bea 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#3e65ff), to(#499bea));
-  background: linear-gradient(to right, #3e65ff 0%, #499bea 100%);
+  background: -moz-linear-gradient(left, #3e65ff 0%, #1d3b7c 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #795585), color-stop(100%, #1d3b7c));
+  background: -webkit-linear-gradient(left, #795585 0%, #1d3b7c 100%);
+  background: -o-linear-gradient(left, #795585 0%, #1d3b7c 100%);
+  background: -ms-linear-gradient(left, #795585 0%, #1d3b7c 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#795585), to(#1d3b7c));
+  background: linear-gradient(to right, #795585 0%, #1d3b7c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e65ff', endColorstr='#499bea', GradientType=1 ); }
   .hero-wrap .text h1 {
     font-weight: 400;
