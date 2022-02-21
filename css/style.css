@@ -3796,7 +3796,12 @@ input[type="button"].btn-block {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+}
+
+.card-body p {
+  color: #000000;
+}
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -3806,7 +3811,7 @@ input[type="button"].btn-block {
   margin-bottom: 0; }
 
 .card-text:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;}
 
 .card-link:hover {
   text-decoration: none; }
@@ -8160,7 +8165,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.4;
-  color: #3c4858;
+  color: #1a1a1e;
   font-weight: 300; }
 
 .ftco-section {
