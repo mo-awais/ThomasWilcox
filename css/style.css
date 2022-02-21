@@ -8176,7 +8176,7 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   background: #3e64ff;
   background: #3e65ff;
-  background: -moz-linear-gradient(left, #3e65ff 0%, #1d3b7c 100%);
+  background: -moz-linear-gradient(left, #795585 0%, #1d3b7c 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, #795585), color-stop(100%, #1d3b7c));
   background: -webkit-linear-gradient(left, #795585 0%, #1d3b7c 100%);
   background: -o-linear-gradient(left, #795585 0%, #1d3b7c 100%);
@@ -8224,7 +8224,7 @@ h1, h2, h3, h4, h5,
     -moz-box-shadow: 0px 5px 18px -12px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 5px 18px -12px rgba(0, 0, 0, 0.18); }
   .btn.btn-primary {
-    background: #3e64ff;
+    background: linear-gradient(to right, #795585 0%, #1d3b7c 100%);
     border: 1px solid #3e64ff;
     color: #fff; }
     .btn.btn-primary.btn-link {
