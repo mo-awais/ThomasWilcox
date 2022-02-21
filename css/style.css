@@ -8756,7 +8756,7 @@ h1, h2, h3, h4, h5,
       float: left;
       margin: 0 2px;
       border-radius: 50%;
-      background: #3e64ff; }
+      background: linear-gradient(to right, #795585 0%, #1d3b7c 100%) }
       .form-login .card-header .social-line .btn-icon i {
         color: #fff; }
 
