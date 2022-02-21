@@ -8746,6 +8746,11 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0px 26px 29px -13px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0px 26px 29px -13px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 26px 29px -13px rgba(0, 0, 0, 0.12); }
+  .card.card-login.raised {
+    -webkit-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.8);
+  }
 
 .form-login .card-header {
   background: transparent;
