@@ -8765,7 +8765,7 @@ h1, h2, h3, h4, h5,
   border-color: rgba(0, 0, 0, 0.1);
   padding: 0; }
   .form-login .card-body .input-group .input-group-prepend .input-group-text i {
-    color: #3e64ff;
+    color: black;
     margin: 0 auto; }
 
 .form-login .card-body .input-group .form-control {
