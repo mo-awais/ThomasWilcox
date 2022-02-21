@@ -30,19 +30,16 @@
 </head>
 <body>
 
-<div class="main-section">
+<div class="main-section" id="main-section">
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Thomas Wilcox</a>
+            <a class="navbar-brand" href="#main-section" id="nav-title">Thomas Wilcox</a>
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i
-                            class="ion-logo-facebook"></i></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i
-                            class="ion-logo-twitter"></i></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i
-                            class="ion-logo-instagram"></i></a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link icon d-flex align-items-center" id="contact-nav"><i class="ion-ios-mail mr-2"></i> Contact</a></li>
+                    <li class="nav-item"><a target="_blank" href="https://github.com/TGWaffles" class="nav-link icon d-flex align-items-center"><i class="ion-logo-github"></i></a></li>
+                    <li class="nav-item"><a target="_blank" href="https://www.linkedin.com/in/thomas-wilcox-3b5470195" class="nav-link icon d-flex align-items-center"><i class="ion-logo-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -58,53 +55,54 @@
                     <div class="text">
                         <h1>Thomas Wilcox.</h1>
                         <h4 class="mb-5">Computer Science Student and Freelance Developer!</h4>
-                        <p><a href="#cards" class="btn btn-white px-4 py-3" id="my-projects">My projects</a></p>
+                        <p><a href="#projects" class="btn btn-white px-4 py-3" id="my-projects">My projects</a>
+                        <p><a href="#contact" class="btn btn-white px-4 py-3" id="contact-me">Contact Me</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="ftco-section ftco-section-2 bg-light" id="cards">
+    <section class="ftco-section ftco-section-2 bg-light" id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/crystal_hollows.png" class="card-img-top">
+                        <img src="images/crystal_hollows.png" class="card-img-top" alt="crystal hollows logo">
                         <div class="card-body">
                             <h5 class="card-title">CrystalHollows DupeChecker</h5>
                             <p class="card-text">A quick dupe checker for Hypixel Skyblock.
                                 Tells you when an item on AH or in an inventory is duped!
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/CrystalHollowsDupeChecker" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/tem_icon.png" class="card-img-top">
+                        <img src="images/tem_icon.png" class="card-img-top" alt="tem icon logo">
                         <div class="card-body">
                             <h5 class="card-title">The Exotics Mod</h5>
                             <p class="card-text">Tracks all items on Hypixel Skyblock.
                                 Searchable armour in certain dyes, as well as tracking item owner history
                                 for all 20m+ items and 12m+ players!
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/TheExoticsMod" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/go_snipe.png" class="card-img-top">
+                        <img src="images/go_snipe.png" class="card-img-top" alt="go snipe logo">
                         <div class="card-body">
                             <h5 class="card-title">GoScanPlayers</h5>
                             <p class="card-text">Tool to search the Hypixel API and alert you when a player logs in.
                                 Written in Go, using Fyne GUI.
                                 Pushes notifications to a Discord webhook or shows in GUI.
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/GoScanPlayers" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
@@ -115,38 +113,38 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/mc_positional.png" class="card-img-top">
+                        <img src="images/mc_positional.png" class="card-img-top" alt="mc positional logo">
                         <div class="card-body">
                             <h5 class="card-title">Project Title Here</h5>
                             <p class="card-text">Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/Minecraft_Positional_Audio_Discord" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/utils.png" class="card-img-top">
+                        <img src="images/utils.png" class="card-img-top" alt="utils logo">
                         <div class="card-body">
                             <h5 class="card-title">Utils</h5>
                             <p class="card-text">A multi-purpose bot for Discord servers.
                                 Transcript features, message logging etc to see what happened in context.
                                 Hypixel and Discord server statistics, games, music, text-to-speech, and more!
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/Utils" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="images/udmx.png" class="card-img-top">
+                        <img src="images/udmx.png" class="card-img-top" alt="udmx logo">
                         <div class="card-body">
                             <h5 class="card-title">Project Title Here</h5>
                             <p class="card-text">Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum.
                             </p>
-                            <a href="#" class="btn btn-primary">Learn More!</a>
+                            <a target="_blank" href="https://github.com/TGWaffles/uDMX-Lighting-CHS-Controller" class="btn btn-primary">Learn more on GitHub!</a>
                         </div>
                     </div>
                 </div>
@@ -154,23 +152,20 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-section-2 section-signup page-header img" style="background-image: url(images/bg_2.jpg);">
+    <section class="ftco-section ftco-section-2 section-signup page-header img" style="background: linear-gradient(to right, #3e65ff 0%, #499bea 100%)" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 ml-auto mr-auto">
                     <div class="card card-login py-4">
-                        <form class="form-login" method="" action="">
+                        <form class="form-login" method="POST" action="">
                             <div class="card-header card-header-primary text-center">
-                                <h4 class="card-title">Login</h4>
+                                <h4 class="card-title">Contact Me!</h4>
                                 <div class="social-line">
-                                    <a href="#" class="btn-icon d-flex align-items-center justify-content-center">
-                                        <i class="ion-logo-facebook"></i>
+                                    <a target="_blank" href="https://github.com/TGWaffles" class="btn-icon d-flex align-items-center justify-content-center">
+                                        <i class="ion-logo-github"></i>
                                     </a>
-                                    <a href="#" class="btn-icon d-flex align-items-center justify-content-center">
-                                        <i class="ion-logo-twitter"></i>
-                                    </a>
-                                    <a href="#" class="btn-icon d-flex align-items-center justify-content-center">
-                                        <i class="ion-logo-googleplus"></i>
+                                    <a target="_blank" href="https://www.linkedin.com/in/thomas-wilcox-3b5470195" class="btn-icon d-flex align-items-center justify-content-center">
+                                        <i class="ion-logo-linkedin"></i>
                                     </a>
                                 </div>
                             </div>
@@ -181,7 +176,8 @@
                                             <i class="ion-ios-contact"></i>
                                         </span>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="First Name...">
+                                    <label for="name" style="display: none"></label>
+                                        <input id="name" name="name" type="text" class="form-control" placeholder="Name">
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
@@ -189,19 +185,21 @@
                                             <i class="ion-ios-paper-plane"></i>
                                         </span>
                                     </div>
-                                    <input type="email" class="form-control" placeholder="Email...">
+                                    <label for="email" style="display:none;"></label>
+                                    <input id="email" name="email" type="email" class="form-control" placeholder="Email">
                                 </div>
                                 <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">
-                                            <i class="ion-ios-lock"></i>
+                                            <i class="ion-ios-mail"></i>
                                         </span>
                                     </div>
-                                    <input type="password" class="form-control" placeholder="Password...">
+                                    <label for="message" style="display:none;"></label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="footer text-center">
-                                <a href="#" class="btn btn-primary">Get Started</a>
+                                <a href="#" class="btn btn-primary">Send Message!</a>
                             </div>
                         </form>
                     </div>
@@ -212,7 +210,7 @@
 
     <footer class="ftco-section ftco-section-2">
         <div class="col-md-12 text-center">
-           <span>Made by <a href="https://www.mohammedawais.me">Mohammed Awais</a></span>
+           <span>Made by <a target="_blank" href="https://www.mohammedawais.me">Mohammed Awais</a></span>
         </div>
     </footer>
 </div>
@@ -252,7 +250,73 @@ $(document).ready(function(){
       event.preventDefault();
 
       // Store hash
-      var hash = this.hash;
+      const hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 400, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $("#nav-title").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      const hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 400, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $("#contact-me").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      const hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 400, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $("#contact-nav").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      const hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
