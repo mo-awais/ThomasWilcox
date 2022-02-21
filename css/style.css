@@ -3780,7 +3780,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 2px solid rgba(0, 0, 0, 0.125);
+  border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -8688,13 +8688,13 @@ h1, h2, h3, h4, h5,
 .image {
   width: 90%; }
   .image.thumbnail {
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    border: 6px solid rgba(0, 0, 0, 0.10);
     padding: 10px;
     background: #fff; }
   .image.img-raised {
-    -webkit-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.14);
-    box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.14); }
+    -webkit-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 21px -8px rgba(0, 0, 0, 0.5); }
 
 .popover {
   border: 1px solid rgba(0, 0, 0, 0.05);
