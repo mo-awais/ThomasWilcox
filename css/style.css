@@ -2858,8 +2858,11 @@ input[type="button"].btn-block {
     width: 1%;
     margin-bottom: 0; }
     .input-group > .form-control + .form-control,
+    .input-group > .form-control-textarea + form-control-textarea,
     .input-group > .form-control + .custom-select,
     .input-group > .form-control + .custom-file,
+    .input-group > .form-control-textarea + .custom-select,
+    .input-group > .form-control-textarea + .custom-file,
     .input-group > .form-control-plaintext + .form-control,
     .input-group > .form-control-plaintext + .custom-select,
     .input-group > .form-control-plaintext + .custom-file,
@@ -8302,7 +8305,7 @@ h1, h2, h3, h4, h5,
     padding: 15px 20px; }
 
 .form-control {
-  height: 40px !important;
+  /*height: 40px !important;*/
   background: #fff !important;
   color: #000000 !important;
   font-size: 14px;
@@ -8797,9 +8800,9 @@ h1, h2, h3, h4, h5,
     color: black;
     margin: 0 auto; }
 
-.form-login .card-body .input-group .form-control {
+.form-login .card-body .input-group .form-control .form-control-textarea {
   border-left: none; }
-  .form-login .card-body .input-group .form-control:focus {
+  .form-login .card-body .input-group .form-control:focus .form-control-textarea {
     border-color: rgba(0, 0, 0, 0.1); }
 
 #cards .card {
